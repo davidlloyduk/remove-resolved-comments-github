@@ -1,0 +1,12 @@
+{
+    "manifest_version": 3,
+    "name": "GH Remove resolved comments",
+    "version": "0.0.1",
+    "description": "GH Remove resolved comments",
+    "content_scripts": [
+    {
+        "matches": ["*://github.com/*/pull/*"],
+        "js": ["content_script.js"]
+    }
+]
+}
